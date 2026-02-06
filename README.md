@@ -5,7 +5,7 @@
 </p>
 
 ### 💫 About Me
-- 🎓 **Full-time Student:** Pursuing B.E. in Computer Science.
+- 🎓 **Full-time Student:** Pursuing B.E. in Computer Science at JSSATEB (VTU).
 - 🚀 **Currently working on:** AI/ML and backend-focused systems.
 - 🌱 **Learning:** Refining my skills in **Go**, **FastAPI**, and **Next.js**.
 - 🛠 **Daily Practice:** Solving DSA problems on LeetCode using **C++**.
@@ -35,7 +35,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/chetanuchiha16/chetanuchiha16/main/github-metrics.svg" alt="Metrics" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chetanuchiha16&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
+</p>
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=chetanuchiha16&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=chetanuchiha16&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
@@ -43,7 +48,10 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=chetanuchiha16&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=chetanuchiha16&theme=tokyonight&hide_border=true&v=1" alt="GitHub Streak" /></p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=chetanuchiha16&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophies" />
 </p>
 
 ---
