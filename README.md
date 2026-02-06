@@ -5,7 +5,7 @@
 </p>
 
 ### 💫 About Me
-- 🎓 **Full-time Student:** Pursuing B.E. in Computer Science at JSSATEB (VTU).
+- 🎓 **Full-time Student:** Pursuing B.E. in Computer Science.
 - 🚀 **Currently working on:** AI/ML and backend-focused systems.
 - 🌱 **Learning:** Refining my skills in **Go**, **FastAPI**, and **Next.js**.
 - 🛠 **Daily Practice:** Solving DSA problems on LeetCode using **C++**.
