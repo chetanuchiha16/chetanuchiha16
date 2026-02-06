@@ -5,7 +5,7 @@
 </p>
 
 ### 💫 About Me
-- 🎓 **Full-time Student:** Pursuing B.E. in Computer Science at JSSATEB (VTU).
+- 🎓 **Full-time Student:** Pursuing B.E. in Computer Science.
 - 🚀 **Currently working on:** AI/ML and backend-focused systems.
 - 🌱 **Learning:** Refining my skills in **Go**, **FastAPI**, and **Next.js**.
 - 🛠 **Daily Practice:** Solving DSA problems on LeetCode using **C++**.
@@ -50,9 +50,9 @@
 <p align="center">
 <img src="https://streak-stats.demolab.com/?user=chetanuchiha16&theme=tokyonight&hide_border=true&v=1" alt="GitHub Streak" /></p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=chetanuchiha16&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophies" />
-</p>
+</p> -->
 
 ---
 
