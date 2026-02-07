@@ -1,7 +1,7 @@
 # Hi there, I'm Chetan! 👋
 
 <p align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5lZDZyN3l0dGRkdGRkdGRkdGRkdGRkdGRkdGRkdGRkZGQmZXA9djFfaW50ZXJuYWxfZ2lmX2J5X2lkJmN0PWc/ZVik7pBtu9dNS/giphy.gif" width="600" alt="Coding GIF">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYng0Njc5bWNhanV0MXoxbDc1bWVvMTY0OTdjdTBpd3E1NXB6OGJwbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LHZyixOnHwDDy/giphy.gif" width="600" alt="Coding GIF">
 </p>
 
 ### 💫 About Me
@@ -56,22 +56,11 @@
 
 ---
 
-### 🌸 Projects in the Works
-- **Hinaverse:** A collection of FastAPI tutorials and experiments.
-- **The Sakura Bond:** A full-stack Django-React application.
-- **Major Project:** Developing a Workforce AI & Productivity Analytics Engine.
-
----
-
 ### 📫 Connect with Me
 
 <p align="left">
   <a href="https://linkedin.com/in/chetan-kishor-c-g"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://leetcode.com/u/chetankishor16/"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"/></a>
-</p>
-
-<p align="right">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5lZDZyN3l0dGRkdGRkdGRkdGRkdGRkdGRkdGRkdGRkZGQmZXA9djFfaW50ZXJuYWxfZ2lmX2J5X2lkJmN0PWc/LmNwrBhejkK9EFP504/giphy.gif" width="150" alt="Anime GIF">
 </p>
 
 <p align="center">
