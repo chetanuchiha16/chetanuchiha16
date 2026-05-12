@@ -7,7 +7,7 @@
 ### 💫 About Me
 - 🎓 **BE - Computer Science** | 6th Sem
 - 🚀 Focus: **Backend Systems** & **AI/ML**
-- 🛠 Architecting with **Go**, **FastAPI**, & **Next.js**
+- 🛠 Architecting with **Go**, **FastAPI**, **Rust** & **Next.js**
 - 🐧 **Fedora** user | ⚔️ Solving **DSA** in **C++**
 
 ### 🛠 Tech Stack
