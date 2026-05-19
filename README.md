@@ -134,7 +134,3 @@ Rust library for ML data pipelines. Processes image batches in parallel and retu
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=chetanuchiha16&color=89B4FA&style=flat-square&label=profile+views" />
-</p>
