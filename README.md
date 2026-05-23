@@ -134,19 +134,3 @@ Rust library for ML data pipelines. Processes image batches in parallel and retu
 </p>
 
 ---
-
-### ⏱️ This Week I Coded
-
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-0%20hrs-89B4FA?style=flat-square)
-
-```text
-💬 Languages:
-Go                       -- hrs -- mins     ░░░░░░░░░░░░░░░░░░░░░░░░░   -- %
-Python                   -- hrs -- mins     ░░░░░░░░░░░░░░░░░░░░░░░░░   -- %
-Rust                     -- hrs -- mins     ░░░░░░░░░░░░░░░░░░░░░░░░░   -- %
-TypeScript               -- hrs -- mins     ░░░░░░░░░░░░░░░░░░░░░░░░░   -- %
-```
-<!--END_SECTION:waka-->
-
----
