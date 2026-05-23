@@ -62,7 +62,7 @@
 #### 🎓 [AcaTrack](https://github.com/chetanuchiha16/acatrack) · [Live ↗](https://acatrack.vercel.app)
 *Full-Stack Academic Performance Analytics Platform*
 
-Full-stack academic ERP with RBAC, AI-driven insights, and automated university data ingestion. Replaced a Flask monolith with FastAPI, achieving a **32× throughput increase** (1.84 → 59.6 RPS) verified by k6.
+Full-stack academic ERP with RBAC, AI-driven insights, and automated university data ingestion. Refactored from a legacy v1 to a modern stack, achieving a **32× throughput increase** (1.84 → 59.6 RPS) verified by k6 — driven by FastAPI + uvloop, Redis caching, N+1 elimination, and DB connection optimization.
 
 - 🦀 **Rust PDF Engine** (PyO3 + Rayon): **8.06× faster** PDF parsing — 21.78 min → 2.70 min for 1,308 PDFs, 35% lower memory
 - ⚡ **Redis caching** for expensive computations + N+1 query elimination → avg response 2,840 ms → **158 ms**
@@ -132,5 +132,21 @@ Rust library for ML data pipelines. Processes image batches in parallel and retu
     <img src="https://leetcard.jacoblin.cool/chetankishor16?theme=dark&font=Baloo%202&ext=stats" width="400" alt="LeetCode Stats" />
   </a>
 </p>
+
+---
+
+### ⏱️ This Week I Coded
+
+<!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20hrs-89B4FA?style=flat-square)
+
+```text
+💬 Languages:
+Go                       -- hrs -- mins     ░░░░░░░░░░░░░░░░░░░░░░░░░   -- %
+Python                   -- hrs -- mins     ░░░░░░░░░░░░░░░░░░░░░░░░░   -- %
+Rust                     -- hrs -- mins     ░░░░░░░░░░░░░░░░░░░░░░░░░   -- %
+TypeScript               -- hrs -- mins     ░░░░░░░░░░░░░░░░░░░░░░░░░   -- %
+```
+<!--END_SECTION:waka-->
 
 ---
