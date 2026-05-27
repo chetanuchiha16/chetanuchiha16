@@ -62,15 +62,32 @@
 #### 🎓 [AcaTrack](https://github.com/chetanuchiha16/acatrack) · [Live ↗](https://acatrack.vercel.app)
 *Full-Stack Academic Performance Analytics Platform*
 
-Full-stack academic ERP with RBAC, AI-driven insights, and automated university data ingestion. Refactored from a legacy v1 to a modern stack, achieving a **32× throughput increase** (1.84 → 59.6 RPS) verified by k6 — driven by FastAPI + uvloop, Redis caching, N+1 elimination, and DB connection optimization.
+Full-stack academic ERP with RBAC, AI-driven insights, and automated university data ingestion. Refactored from a legacy v1 to a modern stack, achieving a **32× throughput increase** (1.84 → 59.6 RPS, avg response 2,840 ms → 158 ms) — verified by k6 across 120+ concurrent requests.
 
-- 🦀 **Rust PDF Engine** (PyO3 + Rayon): **8.06× faster** PDF parsing — 21.78 min → 2.70 min for 1,308 PDFs, 35% lower memory
-- ⚡ **Redis caching** for expensive computations + N+1 query elimination → avg response 2,840 ms → **158 ms**
-- 🕷️ **Selenium** scraper for automated university result ingestion
-- 🔐 RBAC: Student, Parent, Mentor, Admin portals with role-specific dashboards
-- 🌐 Multi-language support: English, Hindi, Kannada · **HeyAPI** generated TypeScript SDK
+- 🦀 **Rust PDF Engine** — published as [`acatrack-pdf-parser-rs`](https://pypi.org/project/acatrack-pdf-parser-rs/) on PyPI · **38.4× faster** (21.78 min → 34 sec, 1,308 PDFs) · **71.5% lower memory**
+- ⚡ **Redis caching** + N+1 elimination + DB connection pooling: 42 → **5 avg connections**, 100% success rate
+- 🔐 **RBAC**: Student, Parent, Mentor/Staff, Admin portals — each with role-scoped dashboards
+- 🤝 **HeyAPI** generated TypeScript SDK — 100% type-safe frontend↔backend contract
+- 🌐 Multi-language: English, Hindi, Kannada · Standalone **Wails desktop scraper** for university result ingestion
+- 📦 **726 commits · 55 merged PRs** across feature, arch, perf, and fix branches
 
 `FastAPI` `React` `Rust` `PyO3` `Rayon` `PostgreSQL` `Redis` `Docker` `Supabase` `SQLAlchemy`
+
+---
+
+#### 🦀 [acatrack-pdf-parser-rs](https://github.com/chetanuchiha16/acatrack-pdf-parser-rs) · [![PyPI](https://img.shields.io/pypi/v/acatrack-pdf-parser-rs.svg)](https://pypi.org/project/acatrack-pdf-parser-rs/)
+*Published Rust PDF Parsing Engine — Available on PyPI*
+
+Native Rust library for parsing university result PDFs, extracted from AcaTrack into a standalone published package. Installable with `pip install acatrack-pdf-parser-rs` — no Rust toolchain needed.
+
+- ⚡ **Rayon** parallelization: GIL-free multi-threaded extraction with CPU core saturation
+- 🧮 **Mathematical verification**: algebraic checksum (IA + SEE = Total) guarantees 100% parsing accuracy
+- 🛡️ **Spacing-robust digit concatenation**: reconstructs visually fragmented columns (e.g. `"4"` + `"5"` → `45`)
+- 📐 **Dual-tier fallback**: clean column scan → flat text scan for layout-resilient parsing
+- 🔍 **FFI telemetry**: streams granular Rust execution logs back to Python for diagnostics
+- 🤖 **CI/CD**: automated PyPI releases via GitHub Actions + Maturin · MIT licensed
+
+`Rust` `PyO3` `Rayon` `Maturin` `PyPI` `GitHub Actions`
 
 ---
 
