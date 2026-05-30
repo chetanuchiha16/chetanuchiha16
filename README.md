@@ -13,7 +13,7 @@
 ### 💫 About Me
 
 - 🎓 **B.E. Computer Science** @ JSS Academy of Technical Education, Bengaluru
-- ⚙️ Building production-grade systems with **Go**, **Rust**, **FastAPI** & **Next.js**
+- ⚙️ Building scalable backend systems with **Go**, **Rust**, **FastAPI** & **Next.js**
 - 🦀 Systems programming in **Rust** — PyO3 bindings, Rayon parallel processing
 - 🧩 Clean Architecture advocate — DDD, RBAC, and type-safe API design
 - 🐧 **Fedora** daily driver | ⚔️ **DSA grind** in **C++**
@@ -40,6 +40,14 @@
   <img src="https://img.shields.io/badge/SQLAlchemy-CBA6F7?style=flat-square&logo=sqlalchemy&logoColor=11111B" />
 </p>
 
+### 🌱 Currently Exploring
+
+- Backend Infrastructure & Streaming Systems
+- High-Performance Rust (PyO3, Rayon, Async)
+- Distributed Systems & Consensus
+- Linux Internals & eBPF Observability
+- Machine Learning Foundations
+  
 ### 📫 Connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-89B4FA?style=flat-square&logo=linkedin&logoColor=11111B)](https://linkedin.com/in/chetan-kishor-c-g)
