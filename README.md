@@ -15,7 +15,7 @@
 - 🎓 **B.E. Computer Science** @ JSS Academy of Technical Education, Bengaluru
 - ⚙️ Building scalable backend systems with **Go**, **Rust**, **FastAPI** & **Next.js**
 - 🎙️ Presented **"JSSTrack360"** at the **IEEE CICCS-25** International Conference (Sep 2025)
-- ⚙️ Building production-grade systems with **Go**, **Rust**, **FastAPI** & **Next.js**
+- ⚙️ Building scalable systems with **Go**, **Rust**, **FastAPI** & **Next.js**
 - 🦀 Systems programming in **Rust** — PyO3 bindings, Rayon parallel processing
 - 🧩 Clean Architecture advocate — DDD, RBAC, and type-safe API design
 - 🐧 **Fedora** daily driver | ⚔️ **DSA grind** in **C++**
