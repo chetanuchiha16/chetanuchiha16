@@ -74,7 +74,6 @@
 
 Full-stack academic ERP with RBAC, AI-driven insights, and automated university data ingestion. Refactored from a legacy v1 to a modern stack, achieving a **32× throughput increase** (1.84 → 59.6 RPS, avg response 2,840 ms → 158 ms) — verified by k6 across 120+ concurrent requests.
 
-- 🎙️ **IEEE Conference Presentation** — Presented the foundational architecture under the title **"JSSTrack360: Student Performance at your fingertips"** at the *First International Conference on Intelligent Computing and Communication Systems (CICCS-25)*, hosted by JSSATE Bengaluru (September 2025).
 - 🦀 **Rust PDF Engine** — published as [`acatrack-pdf-parser-rs`](https://pypi.org/project/acatrack-pdf-parser-rs/) on PyPI · **38.4× faster** (21.78 min → 34 sec, 1,308 PDFs) · **71.5% lower memory**
 - ⚡ **Redis caching** + N+1 elimination + DB connection pooling: 42 → **5 avg connections**, 100% success rate
 - 🔐 **RBAC**: Student, Parent, Mentor/Staff, Admin portals — each with role-scoped dashboards
