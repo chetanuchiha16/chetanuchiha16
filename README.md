@@ -13,9 +13,8 @@
 ### 💫 About Me
 
 - 🎓 **B.E. Computer Science** @ JSS Academy of Technical Education, Bengaluru
-- ⚙️ Building scalable backend systems with **Go**, **Rust**, **FastAPI** & **Next.js**
-- 🎙️ Presented **"JSSTrack360"** at the **IEEE CICCS-25** International Conference (Sep 2025)
 - ⚙️ Building scalable systems with **Go**, **Rust**, **FastAPI** & **Next.js**
+- 🎙️ Presented **"JSSTrack360"** at the **IEEE CICCS-25** International Conference (Sep 2025)
 - 🦀 Systems programming in **Rust** — PyO3 bindings, Rayon parallel processing
 - 🧩 Clean Architecture advocate — DDD, RBAC, and type-safe API design
 - 🐧 **Fedora** daily driver | ⚔️ **DSA grind** in **C++**
@@ -69,13 +68,14 @@
 
 ---
 
-#### 🎓 [AcaTrack](https://github.com/chetanuchiha16/acatrack) · [Live ↗](https://acatrack.vercel.app)
+#### 🎓 [AcaTrack](https://github.com/chetanuchiha16/acatrack) · [Live ↗](https://huggingface.co/spaces/chetanuchiha16/acatrack)
 *Full-Stack Academic Performance Analytics Platform*
 
 Full-stack academic ERP with RBAC, AI-driven insights, and automated university data ingestion. Refactored from a legacy v1 to a modern stack, achieving a **32× throughput increase** (1.84 → 59.6 RPS, avg response 2,840 ms → 158 ms) — verified by k6 across 120+ concurrent requests.
 
 - 🦀 **Rust PDF Engine** — published as [`acatrack-pdf-parser-rs`](https://pypi.org/project/acatrack-pdf-parser-rs/) on PyPI · **38.4× faster** (21.78 min → 34 sec, 1,308 PDFs) · **71.5% lower memory**
 - ⚡ **Redis caching** + N+1 elimination + DB connection pooling: 42 → **5 avg connections**, 100% success rate
+- 🛡️ **Isolated Ephemeral Sandbox** — custom FastAPI middleware & SQLAlchemy routing dynamically provision isolated, auto-seeded SQLite databases per visitor session, ensuring clean, concurrent-safe live demo execution with automated background cleanup
 - 🔐 **RBAC**: Student, Parent, Mentor/Staff, Admin portals — each with role-scoped dashboards
 - 🤝 **HeyAPI** generated TypeScript SDK — 100% type-safe frontend↔backend contract
 - 🌐 Multi-language: English, Hindi, Kannada · [**Wails desktop scraper**](https://github.com/chetanuchiha16/result-scraper): Go + React, CSRF bypass, interactive CAPTCHA flow, headless `chromedp` PDF printing → ZIP archive · binary releases via CI
