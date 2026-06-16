@@ -12,7 +12,7 @@
 
 ### 💫 About Me
 
-- 🎓 **B.E. Computer Science** @ JSS Academy of Technical Education, Bengaluru
+- 🎓 **Computer Science undergrad**
 - ⚙️ Building scalable systems with **Go**, **Rust**, **FastAPI** & **Next.js**
 - 🎙️ Presented **"JSSTrack360"** at the **IEEE CICCS-25** International Conference (Sep 2025)
 - 🦀 Systems programming in **Rust** — PyO3 bindings, Rayon parallel processing
