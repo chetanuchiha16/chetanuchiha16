@@ -79,8 +79,6 @@ Full-stack academic ERP with RBAC, AI-driven insights, and automated university 
 - 🔐 **RBAC**: Student, Parent, Mentor/Staff, Admin portals — each with role-scoped dashboards
 - 🤝 **HeyAPI** generated TypeScript SDK — 100% type-safe frontend↔backend contract
 - 🌐 Multi-language: English, Hindi, Kannada · [**Wails desktop scraper**](https://github.com/chetanuchiha16/result-scraper): Go + React, CSRF bypass, interactive CAPTCHA flow, headless `chromedp` PDF printing → ZIP archive · binary releases via CI
-- 📦 **726 commits · 55 merged PRs** across feature, arch, perf, and fix branches
-
 `FastAPI` `React` `Rust` `PyO3` `Rayon` `PostgreSQL` `Redis` `Docker` `Supabase` `SQLAlchemy`
 
 ---
@@ -129,7 +127,7 @@ Rust library for ML data pipelines. Processes image batches in parallel and retu
 
 `Rust` `PyO3` `Rayon` `NumPy` `ndarray` `tracing`
 
----
+<!-- ---
 
 <details>
 <summary><b>🧪 Go Quests — Concurrency Patterns Lab</b></summary>
@@ -143,7 +141,7 @@ Rust library for ML data pipelines. Processes image batches in parallel and retu
 
 `Go` `goroutines` `channels` `sync.Mutex` `WaitGroup` `fan-out/fan-in`
 
-</details>
+</details> -->
 
 ---
 
