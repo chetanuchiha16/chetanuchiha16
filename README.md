@@ -1,6 +1,6 @@
 <div align="center">
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=1000&color=89B4FA&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Chetan+%F0%9F%91%8B;Backend+%26+Systems+Engineer;Rust+%7C+Go+%7C+Python+%7C+FastAPI;Building+things+that+actually+scale.)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Victor+Mono&weight=700&size=28&pause=1000&color=89B4FA&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Chetan+%F0%9F%91%8B&style=italic)](https://git.io/typing-svg)
 
 </div>
 
@@ -15,8 +15,7 @@
 - 🎓 **Computer Science undergrad**
 - ⚙️ Building scalable systems with **Go**, **Rust**, **FastAPI** & **Next.js**
 - 🎙️ Presented **"JSSTrack360"** at the **IEEE CICCS-25** International Conference (Sep 2025)
-- 🦀 Systems programming in **Rust** — PyO3 bindings, Rayon parallel processing
-- 🧩 Clean Architecture advocate — DDD, RBAC, and type-safe API design
+<!-- - 🦀 Systems programming in **Rust** — PyO3 bindings, Rayon parallel processing -->
 - 🐧 **Fedora** daily driver | ⚔️ **DSA grind** in **C++**
 - 🚀 Obsessed with perf: benchmarks, k6 load tests, N+1 hunts
 
