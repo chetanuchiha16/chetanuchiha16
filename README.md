@@ -1,6 +1,6 @@
 <div align="center">
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Victor+Mono&weight=700&size=28&pause=1000&color=89B4FA&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Chetan+%F0%9F%91%8B&style=italic)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Victor+Mono&weight=700&size=28&pause=1200&color=89B4FA&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Chetan+%F0%9F%91%8B;Systems+%26+Distributed+Backend+Engineer;Building+in+Go%2C+Rust+%26+Python;Low-Latency+%26+Concurrency+Obsessed&style=italic)](https://git.io/typing-svg)
 
 </div>
 
@@ -14,8 +14,6 @@
 
 - 🎓 **Computer Science undergrad**
 - ⚙️ Building scalable systems with **Go**, **Rust**, **FastAPI** & **Next.js**
-- 🎙️ Presented **"JSSTrack360"** at the **IEEE CICCS-25** International Conference (Sep 2025)
-<!-- - 🦀 Systems programming in **Rust** — PyO3 bindings, Rayon parallel processing -->
 - 🐧 **Fedora** daily driver | ⚔️ **DSA grind** in **C++**
 - 🚀 Obsessed with perf: benchmarks, k6 load tests, N+1 hunts
 
@@ -27,6 +25,12 @@
   <img src="https://img.shields.io/badge/Python-A6E3A1?style=flat-square&logo=python&logoColor=11111B" />
   <img src="https://img.shields.io/badge/TypeScript-89DCEB?style=flat-square&logo=typescript&logoColor=11111B" />
   <img src="https://img.shields.io/badge/C++-B4BEFE?style=flat-square&logo=c%2B%2B&logoColor=11111B" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/Tokio-F38BA8?style=flat-square&logo=rust&logoColor=11111B" />
+  <img src="https://img.shields.io/badge/Rayon-FAB387?style=flat-square&logo=rust&logoColor=11111B" />
+  <img src="https://img.shields.io/badge/gRPC-89B4FA?style=flat-square&logo=grpc&logoColor=11111B" />
+  <img src="https://img.shields.io/badge/Protobuf-A6E3A1?style=flat-square&logo=google&logoColor=11111B" />
 </p>
 <p>
   <img src="https://img.shields.io/badge/FastAPI-94E2D5?style=flat-square&logo=fastapi&logoColor=11111B" />
@@ -42,17 +46,17 @@
 
 ### 🌱 Currently Exploring
 
-- Backend Infrastructure & Streaming Systems
-- High-Performance Rust (PyO3, Rayon, Async)
-- Distributed Systems & Consensus
-- Linux Internals & eBPF Observability
-- Machine Learning Foundations
+- 🗄️ Database Storage Internals & LSM-Trees (`Sthirayama`)
+- 🌐 Distributed Consensus Protocols (Raft in Go & Rust)
+- 🌊 High-Throughput Network Streaming & Concurrency
+- 🐧 Linux Internals, eBPF & Kernel Bypass (`io_uring`)
   
 ### 📫 Connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-89B4FA?style=flat-square&logo=linkedin&logoColor=11111B)](https://linkedin.com/in/chetan-kishor-c-g)
 [![LeetCode](https://img.shields.io/badge/-LeetCode-FAB387?style=flat-square&logo=LeetCode&logoColor=11111B)](https://leetcode.com/u/chetankishor16/)
 [![GitHub](https://img.shields.io/badge/-GitHub-CDD6F4?style=flat-square&logo=github&logoColor=11111B)](https://github.com/chetanuchiha16)
+[![Email](https://img.shields.io/badge/-Email-F38BA8?style=flat-square&logo=gmail&logoColor=11111B)](mailto:chetan16ck@gmail.com)
 
    </td>
    <td width="42%" valign="center" align="center">
