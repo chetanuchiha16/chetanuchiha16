@@ -118,7 +118,7 @@
 ### 📊 Stats & Activity
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=chetanuchiha16&layout=compact&theme=catppuccin_mocha&hide_border=true" height="165px" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=chetanuchiha16&layout=compact&theme=catppuccin_mocha&hide_border=true&langs_count=5&v=2" height="165px" />
   <img src="https://streak-stats.demolab.com/?user=chetanuchiha16&theme=catppuccin_mocha&hide_border=true" height="165px" />
 </p>
 
