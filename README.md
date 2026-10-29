@@ -68,79 +68,46 @@
 ---
 
 #### 🎓 [AcaTrack](https://github.com/chetanuchiha16/acatrack) · [Live ↗](https://huggingface.co/spaces/chetanuchiha16/acatrack)
-*Full-Stack Academic Performance Analytics Platform*
+*Full-Stack Academic Analytics Platform & Concurrency Ecosystem*
 
-Full-stack academic ERP with RBAC, AI-driven insights, and automated university data ingestion. Refactored from a legacy v1 to a modern stack, achieving a **32× throughput increase** (1.84 → 59.6 RPS, avg response 2,840 ms → 158 ms) — verified by k6 across 120+ concurrent requests.
+- ⚡ **32× Throughput Gain** (1.84 → 59.6 RPS, avg latency 2,840 ms → 158 ms) via FastAPI, Redis caching, N+1 query elimination, and DB connection pooling (42 → 5 avg conns) — verified by k6 across 120+ concurrent VUs.
+- 🛡️ **Session-Isolated Sandboxing**: Dynamic SQLite environment provisioning per visitor session with automated background garbage collection for concurrent-safe live demo execution.
+- 🦀 **Native Ecosystem**: Core ingestion powered by our published [`acatrack-pdf-parser-rs`](https://pypi.org/project/acatrack-pdf-parser-rs/) PyPI package (**38.4× faster**, Rayon parallelization) and a standalone [Wails desktop scraper](https://github.com/chetanuchiha16/result-scraper) (Go + React + headless `chromedp`).
 
-- 🦀 **Rust PDF Engine** — published as [`acatrack-pdf-parser-rs`](https://pypi.org/project/acatrack-pdf-parser-rs/) on PyPI · **38.4× faster** (21.78 min → 34 sec, 1,308 PDFs) · **71.5% lower memory**
-- ⚡ **Redis caching** + N+1 elimination + DB connection pooling: 42 → **5 avg connections**, 100% success rate
-- 🛡️ **Isolated Ephemeral Sandbox** — custom FastAPI middleware & SQLAlchemy routing dynamically provision isolated, auto-seeded SQLite databases per visitor session, ensuring clean, concurrent-safe live demo execution with automated background cleanup
-- 🔐 **RBAC**: Student, Parent, Mentor/Staff, Admin portals — each with role-scoped dashboards
-- 🤝 **HeyAPI** generated TypeScript SDK — 100% type-safe frontend↔backend contract
-- 🌐 Multi-language: English, Hindi, Kannada · [**Wails desktop scraper**](https://github.com/chetanuchiha16/result-scraper): Go + React, CSRF bypass, interactive CAPTCHA flow, headless `chromedp` PDF printing → ZIP archive · binary releases via CI
-`FastAPI` `React` `Rust` `PyO3` `Rayon` `PostgreSQL` `Redis` `Docker` `Supabase` `SQLAlchemy`
+`FastAPI` `React` `PostgreSQL` `Redis` `Rust (PyO3)` `Go (Wails)` `Docker` `Supabase`
 
 ---
 
-#### 🦀 [acatrack-pdf-parser-rs](https://github.com/chetanuchiha16/acatrack-pdf-parser-rs) · [![PyPI](https://img.shields.io/pypi/v/acatrack-pdf-parser-rs.svg)](https://pypi.org/project/acatrack-pdf-parser-rs/)
-*Published Rust PDF Parsing Engine — Available on PyPI*
+#### 🗄️ [Sthirayama](https://github.com/chetanuchiha16/sthirayama) `[Active Development]`
+*Distributed LSM-Tree Storage Engine in Rust & Go*
 
-Native Rust library for parsing university result PDFs, extracted from AcaTrack into a standalone published package. Installable with `pip install acatrack-pdf-parser-rs` — no Rust toolchain needed.
+- 🧱 **Verified Core Engine (51 passing tests)**: Thread-safe **SkipList memtable** engineered with atomic pointers (`AtomicPtr`), concurrent read/write stress testing, and crash-resilient WAL with log recycling.
+- 📦 **SSTables & Compaction**: Immutable disk block format (DataBlock, Index, Footer) paired with a k-way heap merge iterator for background compaction and tombstone garbage collection.
+- 🌐 **Distributed Architecture**: gRPC client-server communication with Protobuf serialization; active roadmap includes multi-node partition replication via a Go-based Raft consensus layer.
 
-- ⚡ **Rayon** parallelization: GIL-free multi-threaded extraction with CPU core saturation
-- 🧮 **Mathematical verification**: algebraic checksum (IA + SEE = Total) guarantees 100% parsing accuracy
-- 🛡️ **Spacing-robust digit concatenation**: reconstructs visually fragmented columns (e.g. `"4"` + `"5"` → `45`)
-- 📐 **Dual-tier fallback**: clean column scan → flat text scan for layout-resilient parsing
-- 🔍 **FFI telemetry**: streams granular Rust execution logs back to Python for diagnostics
-- 🤖 **CI/CD**: automated PyPI releases via GitHub Actions + Maturin · MIT licensed
-
-`Rust` `PyO3` `Rayon` `Maturin` `PyPI` `GitHub Actions`
+`Rust` `LSM-Tree` `Tokio` `Rayon` `gRPC` `Protocol Buffers` `Go`
 
 ---
 
-#### ⚙️ [Go Production Blueprint](https://github.com/chetanuchiha16/go-play)
-*Pragmatic Clean Architecture in Go*
+#### 🌊 [Metroflow](https://github.com/chetanuchiha16/metroflow)
+*High-Throughput Concurrent Log Streaming & Ingestion Pipeline in Go*
 
-Production-ready Go backend template with strict Clean Architecture, OpenAPI-driven development, and full test coverage via the **"Aura" hierarchy** (Handler → Service Interface → Store Interface).
+- 🚀 **47,000+ Logs/Sec Throughput**: Non-blocking log ingestion streaming structured records over raw TCP into Redis job queues via a fan-out worker pool.
+- 🛡️ **Zero-Leak Concurrency**: Solved goroutine memory leaks under high churn using connection-scoped contexts (`context.WithCancel`) and global `sync.WaitGroup` coordination for graceful multi-client termination.
+- 💾 **Reliable Persistence**: Consumer worker pool featuring atomic CSV writer flushes and `BLPop` queue synchronization, guaranteeing zero data loss during process termination.
 
-- 📄 **OpenAPI-first**: spec → server stubs auto-generated via `oapi-codegen`
-- 🗄️ **Type-safe DB**: `sqlc` generates Go from raw SQL · `pgx/v5` for connection pooling
-- 🧪 **Full test suite**: unit tests with `Mockery` mocks + integration tests against real DB
-- 📚 **Swagger UI** at `/docs` · **CI** via GitHub Actions · live-reload with `Air`
-- 📋 **Zerolog** structured logging · **Viper** config management
-
-`Go` `PostgreSQL` `sqlc` `pgx` `Docker` `OpenAPI` `oapi-codegen` `Mockery` `Zerolog`
+`Go` `Redis` `TCP` `Goroutines` `Channels` `Concurrency` `Benchmarks`
 
 ---
 
 #### 🦀 [IrisBridge](https://github.com/chetanuchiha16/iris-bridge)
 *High-Performance Rust Image Processing Library with Python Bindings*
 
-Rust library for ML data pipelines. Processes image batches in parallel and returns results as NumPy arrays — zero-copy, ML-ready output with structured tracing out of the box.
-
-- ⚡ **Rayon** `par_iter` for multi-core parallel batch processing across all available CPU cores
-- 🐍 **PyO3** bindings: call Rust natively from Python as `iris_bridge_py`
-- 🖼️ Auto-resize to **224×224** (Lanczos3) + normalize pixel values to `[0, 1]`
-- 📦 Returns `Array3<f32>` → Python `np.ndarray` directly, eliminating serialization overhead
-- 🔍 **`#[instrument]`** spans for span-level timing diagnostics via `tracing`
+- ⚡ **4.3× Parallel Speedup** (273 images/sec vs 62 seq): CPU-parallel batch processing across all cores utilizing Rayon's work-stealing thread pool.
+- 🐍 **Zero-Copy Python FFI**: PyO3 bindings (`iris_bridge_py`) compile native Rust into normalized 3D NumPy arrays (`Array3<f32>`) returned directly into Python memory without serialization overhead.
+- 🔍 **Production Telemetry**: Structured span-level timing and memory diagnostics instrumented via the `tracing` framework (`#[instrument]`).
 
 `Rust` `PyO3` `Rayon` `NumPy` `ndarray` `tracing`
-
-<!-- ---
-
-<details>
-<summary><b>🧪 Go Quests — Concurrency Patterns Lab</b></summary>
-<br/>
-
-[go-quests](https://github.com/chetanuchiha16/go-quests) is a hands-on deep-dive into Go concurrency primitives — built from scratch, intentionally broken, and fixed with documented reasoning.
-
-- **Chat Server**: TCP multi-client broadcast server. Progressed from naive goroutine slices (race conditions, stale slice copies) → `sync.Mutex`-guarded state
-- **Worker Pool**: Fan-out / Fan-in pipeline — basic WaitGroup → per-worker output channels → `fanIn` merger
-- Each trial ships with a `mistakes.md` documenting the exact bug and fix
-
-`Go` `goroutines` `channels` `sync.Mutex` `WaitGroup` `fan-out/fan-in`
-
-</details> -->
 
 ---
 
