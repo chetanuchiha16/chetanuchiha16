@@ -147,7 +147,7 @@ Rust library for ML data pipelines. Processes image batches in parallel and retu
 ### 📊 Stats & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=chetanuchiha16&layout=compact&theme=catppuccin_mocha&hide_border=true" height="165px" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=chetanuchiha16&layout=compact&theme=catppuccin_mocha&hide_border=true" height="165px" />
   <img src="https://streak-stats.demolab.com/?user=chetanuchiha16&theme=catppuccin_mocha&hide_border=true" height="165px" />
 </p>
 
